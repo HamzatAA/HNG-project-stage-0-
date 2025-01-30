@@ -8,4 +8,84 @@
 
 body{
     font-family: "Libre Baskerville", serif;
+    background: #FFFFFF;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    border-bottom: 2px solid hsla(265, 30%, 11%, 0.308);
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav h1 a{
+    text-decoration: none;
+    color: #1f1235;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background: ;
+}
+
+header div{
+    margin-left: 1rem;
+}
+
+header div p{
+    font-size: smaller;
+}
+
+header img{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    outline: 2px solid #ff6e6c;
+    border: 2px solid #fff;
+}
+
+.main{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p{
+    color: #1b1425;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+figure img{
+    width: 350px;
+    border-radius: 5px;
+}
+
+.content h3{
+    margin: .8rem 0;
+}
+
+footer{
+    border-top: 2px solid hsla(265, 30%, 11%, 0.308);
 }
